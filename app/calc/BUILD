@@ -1,5 +1,4 @@
 load("//tools/build:php.bzl", "php_binary", "php_test", "php_image")
-load("@io_bazel_rules_docker//container:image.bzl", "container_image")
 
 php_binary(
   name="calc",

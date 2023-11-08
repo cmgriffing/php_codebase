@@ -1,6 +1,8 @@
 # Composer related build rules.
+"This is the docstring for the composer module"
 
 def _composer_repository_impl(repository_ctx):
+  print("FOOOOOOO")
   repository_ctx.execute(
       [repository_ctx.attr.composer_bin,
        'require',

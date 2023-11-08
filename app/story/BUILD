@@ -15,3 +15,12 @@ php_test(
   ],
   size="small",
 )
+
+# php_image(
+#   name="story_img",
+#   srcs=["Story.php"],
+#   deps=[
+#     "//base/math/complex:complex"
+#   ],
+#   # cmd="find 2>/dev/null | grep -e calc -e Calc"
+# )
